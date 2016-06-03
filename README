@@ -1,0 +1,17 @@
+Jenkaas configuration repository for https://jenkins.canonical.com/libertine.
+
+It's necessary to use the API token for the Jenkins Job Builder bot to utilize
+jenkaas. Define the environment variable `JENKINS_JB_BOT_API_TOKEN`.
+
+To test:
+
+```
+jenkins-jobs --conf libertine-scope.conf test libertine-scope.yaml:jenkaas-jobs/jenkaas_jobs/yaml
+```
+
+To update:
+
+```
+jenkins-jobs --conf libertine-scope.conf update libertine-scope.yaml:jenkaas-jobs/jenkaas_jobs/yaml
+```
+

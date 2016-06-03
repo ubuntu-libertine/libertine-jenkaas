@@ -1,0 +1,3 @@
+[submodule "jenkaas-jobs"]
+	path = jenkaas-jobs
+	url = git+ssh://git.launchpad.net/jenkaas-jobs
