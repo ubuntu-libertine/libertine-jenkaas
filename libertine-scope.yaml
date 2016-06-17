@@ -11,7 +11,7 @@
 
 - project:
     # An arbitrary name for the project.
-    name: libertine-scope
+    name: libertine
 
     ########## Global variables ##########
     # The variables below apply globally to the whole jenkins setup.
@@ -96,10 +96,8 @@
     # A list of Launchpad projects to configure for CI, each of which can have
     # overrides for the per-project variables above as key-value pairs.
     project:
-    - libertine-scope:
-        build_releases:
-        - vivid+overlay
-        - xenial+overlay
+    - libertine-scope
+    - acolyterm
     # - your-other-project
     # - even-another-project:
         # You can direct the trigger and CI jobs at a branch different than
