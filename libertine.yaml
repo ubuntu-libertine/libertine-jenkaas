@@ -30,7 +30,7 @@
     # A space-separated list of packages to install on build slaves in addition
     # to the default list. Use this if, for example, your debian/rules clean
     # target needs something specific.
-    install_packages: ''
+    install_packages: 'gobject-introspection'
 
     # The list of all slaves available in your jenkins instance. Currently only
     # the run-commands job uses that list.
