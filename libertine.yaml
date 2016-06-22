@@ -96,13 +96,9 @@
     # A list of Launchpad projects to configure for CI, each of which can have
     # overrides for the per-project variables above as key-value pairs.
     project:
+    - libertine
     - libertine-scope
     - acolyterm
-    # - your-other-project
-    # - even-another-project:
-        # You can direct the trigger and CI jobs at a branch different than
-        # lp:{project}
-        # branch: lp:another-branch
 
     # You can control which jobs get generated on your instance by modifying
     # the list below.
@@ -112,7 +108,7 @@
     - prepare-jobs
 
     # Set up credentials for interacting with Launchpad.
-    # - credentials-jobs
+    - credentials-jobs
 
     # Daily maintenance jobs - upgrade slaves and chroots.
     - maintain-jobs
