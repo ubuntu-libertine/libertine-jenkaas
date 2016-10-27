@@ -8,11 +8,21 @@ You must be on the Canonical VPN to successfully run these commands.
 To test:
 
 ```
-jenkins-jobs --conf libertine.conf test libertine.yaml:jenkaas-jobs/jenkaas_jobs/yaml
+$ jenkins-jobs --conf libertine.conf test libertine.yaml:jenkaas-jobs/jenkaas_jobs/yaml
 ```
 
 To update:
 
 ```
-jenkins-jobs --conf libertine.conf update libertine.yaml:jenkaas-jobs/jenkaas_jobs/yaml
+$ jenkins-jobs --conf libertine.conf update libertine.yaml:jenkaas-jobs/jenkaas_jobs/yaml
+```
+
+Prereqs
+=======
+
+You may also need some prereqs:
+
+```
+$ sudo apt install python3-pip
+$ pip install jenkins-job-builder
 ```
