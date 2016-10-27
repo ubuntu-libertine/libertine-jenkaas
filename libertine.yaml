@@ -45,7 +45,7 @@
 
     # See defaults.yaml
     build_releases: &build_releases
-    - yakkety
+    - zesty
     - xenial+overlay
     - vivid+overlay
 
