@@ -26,3 +26,8 @@ You may also need some prereqs:
 $ sudo apt install python3-pip
 $ pip install jenkins-job-builder
 ```
+
+New API Token?
+==============
+
+If the jenkins bot credentials have changed for launchpad, you'll need to manually run `credentials-3-launchpad-plugin` with the new ci-bot API token.
