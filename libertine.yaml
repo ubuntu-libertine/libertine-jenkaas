@@ -99,7 +99,6 @@
     project:
     - libertine
     - libertine-scope
-    - acolyterm
 
     # You can control which jobs get generated on your instance by modifying
     # the list below.
