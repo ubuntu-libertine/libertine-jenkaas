@@ -17,7 +17,7 @@
     # The variables below apply globally to the whole jenkins setup.
 
     # Your internal jenkins address.
-    backend_url: http://libertine-jenkins-be.internal:8080/libertine
+    backend_url: http://libertine-jenkins-be.internal:8080/libertine/
 
     # Your CI bot Launchpad username.
     bot_username: libertine-ci-bot
