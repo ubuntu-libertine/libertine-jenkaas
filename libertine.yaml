@@ -47,7 +47,6 @@
     build_releases: &build_releases
     - zesty
     - xenial+overlay
-    - vivid+overlay
 
     # See defaults.yaml
     build_architectures:
